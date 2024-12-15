@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Pribadi</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+    <script>
+        (function() {
+            emailjs.init("uxN3WoydTwuLji-h1"); // Ganti dengan user ID Anda dari EmailJS
+        })();
+    </script>    
+
+</head>
+<body>
+    <header id="header">
+        <div class="container">
+            <h1>Arya Omar Casano</h1>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#about">Tentang Saya</a></li>
+                    <li><a href="#experience">Pengalaman</a></li>
+                    <li><a href="#portfolio">Proyek</a></li>
+                    <li><a href="#contact">Kontak</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="about">
+        <div class="container">
+            <h2>Tentang Saya</h2>
+            <p>Saya adalah seorang teknisi berpengalaman dengan keahlian dalam pemeliharaan dan perbaikan peralatan elektronik, listrik, jaringan, dan perangkat POS. Memiliki latar belakang yang kuat dalam memastikan kelancaran operasional fasilitas, termasuk inspeksi rutin, instalasi perangkat baru, serta dokumentasi teknis menggunakan alat seperti AutoCAD dan Microsoft Office. Berpengalaman bekerja dengan berbagai peralatan seperti printer, sistem pencahayaan, dan AC, saya juga terbiasa mengelola inventaris perangkat keras dan perangkat lunak, serta berkoordinasi dengan vendor untuk perbaikan. Dengan kemampuan pemecahan masalah yang cepat dan efisien, saya selalu berkomitmen untuk mendukung kebutuhan operasional dan meningkatkan efisiensi kerja.</p>
+        </div>
+    </section>
+
+    <section id="experience">
+        <div class="container">
+            <h2>Pengalaman Kerja</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <h3>Maintenance - SOGO Department Store</h3>
+                    <p>Bertanggung jawab atas inspeksi harian, pemeliharaan rutin, dan perbaikan fasilitas seperti plumbing, AC, serta sistem listrik untuk memastikan operasional berjalan lancar. Mengelola instalasi, penggantian komponen, dan dokumentasi tata letak area menggunakan AutoCAD dan Microsoft Office. Berkoordinasi dengan tim operasional dan vendor untuk memastikan pemeliharaan dilakukan secara efisien, termasuk perbaikan pencahayaan di area display, gudang, dan fasilitas umum sesuai standar toko.</p>
+                     
+                </div>
+                <div class="timeline-item">
+                    <h3>Teknisi dan IT Support - Budiman Swalayan</h3>
+                    <p>Melakukan inspeksi, pemeliharaan, dan perbaikan preventif pada peralatan listrik, jaringan, dan POS untuk memastikan kelancaran operasional. Mengatasi kerusakan dengan cepat, melakukan instalasi peralatan baru, serta menjaga kebersihan dan dokumentasi area kerja. Mengelola inventaris perangkat dan koordinasi dengan vendor untuk perbaikan atau penggantian perangkat sesuai standar.</p>
+                </div>
+                <div class="timeline-item">
+                    <h3>Teknisi Printer - HService</h3>
+                    <p>Melakukan perbaikan, pemeliharaan, dan pemecahan masalah printer untuk klien, memberikan solusi efektif, serta menjaga catatan pemeliharaan yang akurat.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio">
+        <div class="container">
+            <h2>Proyek/Portofolio</h2>
+            <div class="grid">
+                <div class="grid-item">
+                    <img src="project1.jpg" alt="Proyek 1">
+                    <h3>Proyek 1</h3>
+                    <p>Deskripsi singkat proyek 1.</p>
+                </div>
+                <div class="grid-item">
+                    <img src="project2.jpg" alt="Proyek 2">
+                    <h3>Proyek 2</h3>
+                    <p>Deskripsi singkat proyek 2.</p>
+                </div>
+                <div class="grid-item">
+                    <img src="project3.jpg" alt="Proyek 3">
+                    <h3>Proyek 3</h3>
+                    <p>Deskripsi singkat proyek 3.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Kontak</h2>
+            <form id="contact-form">
+                <label for="name">Nama:</label>
+                <input type="text" id="name" name="name" required>
+            
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            
+                <label for="message">Pesan:</label>
+                <textarea id="message" name="message" required></textarea>
+            
+                <button type="submit">Kirim</button>
+            </form>            
+            <div class="social-media">
+                <a href="#">Facebook</a>
+                <a href="#">LinkedIn</a>
+                <a href="https://github.com/Aryaoma/portweb">GitHub</a>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
